@@ -1,0 +1,29 @@
+@media (max-width: 640px) {
+  .ant-layout-content {
+    height: 90svh; /* Adjust height for small screens */
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+  }
+}
+
+/* For medium screens (e.g., tablets) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .ant-layout-content {
+    height: 88svh; /* Adjust height for medium screens */
+    overflow-y: auto;
+  }
+}
+
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  }
+/* For large screens (e.g., desktops) */
+@media (min-width: 1025px) {
+  .ant-layout-content {
+    height: 87svh; /* Adjust height for large screens */
+    overflow-y: auto;
+  }
+}
+
+.ant-layout-content::-webkit-scrollbar {
+  /*hide scrollbar*/
+  display: none;
+}

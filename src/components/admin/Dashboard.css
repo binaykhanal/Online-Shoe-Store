@@ -1,0 +1,20 @@
+.bg-blue {
+    background-color: #bfdefd;
+  }
+  
+  .bg-green {
+    background-color: #d1e9db;
+  }
+  
+  .bg-red {
+    background-color: #fab8bc;
+  }
+  
+  .bg-purple {
+    background-color: #bfb7ff;
+  }
+  
+  /* Default background color */
+  .bg-default {
+    background-color: gray;
+  }
